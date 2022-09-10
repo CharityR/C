@@ -18,16 +18,16 @@ int main()
 
 	/* this is to calculate the area of the rectangle*/
 
-	int a;
-	int b;
-	int c;
+	int e;
+	int f;
+	int g;
 
-	a = height;
-	b = width;
+	e = height;
+	f = width;
 
-	c = (a * b);
+	g = (e * f);
 
-	printf("Display the value of c : %d \n", c);
+	printf("Display the value of g : %d \n", g);
 
 	return 0;
 }
