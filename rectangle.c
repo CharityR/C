@@ -5,29 +5,23 @@
 int main()
 {
 	/* this is to calculate the perimeter of the rectangle*/
-	int a;
-	int b;
-	int c;
+	int width;
+	int height;
+	
+	width = 15;
+	height = 6;
 
-	a = height;
-	b = width;
+	int perimeter, area;
 
-	c = (a + b) * 2;
+	perimeter = (width + height) * 2;
 
-	printf("Display the value of c : %d \n", c);
+	printf("Display the value of perimeter : %d \n", perimeter);
 
 	/* this is to calculate the area of the rectangle*/
 
-	int e;
-	int f;
-	int g;
+	area = (width + height);
 
-	e = height;
-	f = width;
-
-	g = (e * f);
-
-	printf("Display the value of g : %d \n", g);
+	printf("Display the value of area : %d \n", area);
 
 	return 0;
 }
